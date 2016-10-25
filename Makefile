@@ -6,7 +6,7 @@ LDADD   = -lutil
 INSTALL = install -o root
 prefix  = /usr/local
 
-PLUGINS = pptpd-sendmail.so
+PLUGINS = pptpd-slack-ack.so
 
 # include dependencies if present
 ifeq (.depend,$(wildcard .depend))
